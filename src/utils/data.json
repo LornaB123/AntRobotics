@@ -1,0 +1,144 @@
+{
+   "products": [
+        {
+            "link": "images/OTTO100.png",
+            "name": "OTTO 100 (pending)",
+            "info": {
+                "payload": "220 lbs (100 kg)",
+                "size": "740 x 550 x 310 mm",
+                "speed": "4.3 mph",
+                "runningTime": "4 hrs or 9 mi",
+                "chargingTime": "1.2 hrs (0-80%: 0.75 hrs)"
+            }
+        },
+        {
+            "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ0oG_cqbkBOBg2KIc7nyfB6UrBKPl__V_7g&usqp=CAU",
+            "name": "OTKO 100",
+            "info": {
+                "payload": "120 lbs (100 kg)",
+                "size": "740 x 550 x 310 mm",
+                "speed": "4.3 mph",
+                "runningTime": "3 hrs or 9 mi",
+                "chargingTime": "2.2 hrs (0-80%: 0.75 hrs)"
+            }
+        },
+        {
+            "link": "https://image.freepik.com/free-vector/cute-cartoon-grey-robot-with-big-eyes-white-background_214720-33.jpg",
+            "name": "SUZUKI 100 (pending)",
+            "info": {
+                "payload": "220 lbs (130 kg)",
+                "size": "234 x 550 x 310 mm",
+                "speed": "4.3 mph",
+                "runningTime": "4 hrs or 10 mi",
+                "chargingTime": "3.2 hrs (0-80%: 0.75 hrs)"
+            }
+        },
+        {
+            "link": "https://images-na.ssl-images-amazon.com/images/I/513SMv7R-0L._SL1200_.jpg",
+            "name": "SAM 322 (pending)",
+            "info": {
+                "payload": "220 lbs (100 kg)",
+                "size": "740 x 350 x 310 mm",
+                "speed": "4.3 mph",
+                "runningTime": "8 hrs or 9 mi",
+                "chargingTime": "4.2 hrs (0-80%: 0.75 hrs)"
+            }
+        }
+    ],
+    "pictures": [
+        {
+            "name": "ANT 100 Robot at work",
+            "link": "images/gallery.png"
+        },
+        {
+            "name": "WAKA N300 Robot at work",
+            "link": "https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8cm9ib3QlMjBtYWNoaW5lfGVufDB8fDB8&auto=format&fit=crop&w=600&q=60"
+        },
+        {
+            "name": "IAKEE 1400 limited edition Robot at work",
+            "link": "https://images.unsplash.com/photo-1554373086-b74c64d34c38?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fHJvYm90JTIwbWFjaGluZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+        },
+        {
+            "name": "SAM 100 Robot at work",
+            "link": "https://images.unsplash.com/photo-1593376853899-fbb47a057fa0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDl8fHJvYm90JTIwbWFjaGluZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+        },
+        {
+            "name": "WUZI S20 ultra Robot at work",
+            "link": "https://images.unsplash.com/photo-1531747118685-ca8fa6e08806?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjd8fHJvYm90JTIwbWFjaGluZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+        },
+        {
+            "name": "SUZU F20 Robot at work",
+            "link": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjZ8fHJvYm90JTIwbWFjaGluZXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=600&q=60"
+        }
+    ],
+    "customerBenefits": [
+        {
+            "link": "images/customer1.png",
+            "title": "Labor-intensive dolly movements",
+            "subtitle": "<b>Challenges: </b>It is more and more<b> difficult to hire workers, </b>because they prefer to work in delivery services for the same money."
+        },
+        {
+            "link": "images/customer2.png",
+            "title": "Forklifts, tuggers managed by man",
+            "subtitle": "<b>Challenges: </b>It is more and more<b> difficult to hire forklift drivers </b>because they prefer to work in delivery for the same money."
+        },
+        {
+            "link": "images/customer3.png",
+            "title": "Follow-the-line robots",
+            "subtitle": "<b>Challenges: </b>It is time-consuming and expensive to replace old robots by state-of-the art, but produced by another vendor."
+        },
+        {
+            "link": "images/customer4.png",
+            "title": "Autonomous mobile robots",
+            "subtitle": "<b>Challenges: </b>Limited upgrade options within the same vendor robot line only and too expensive to use another vendor robots."
+        }
+    ],
+    "beneifts": [
+        {
+            "link": "images/benefits1.svg",
+            "title": "Top-Notch Technology",
+            "subtitle": "Once you transform your indoor logistics, we'll keep it up-to-date."
+        },
+        {
+            "link": "images/benefits2.svg",
+            "title": "Up-To-Date Software",
+            "subtitle": "You always get immediate software updates including new features and algorithms in background."
+        },
+        {
+            "link": "images/benefits3.svg",
+            "title": "Seamless Fleet Upgrade",
+            "subtitle": "No need to stop the production to upgrade, extend, or replace the fleet. No hassle needed for the new units to get to work."
+        },
+        {
+            "link": "images/benefits4.svg",
+            "title": "Incompatible Robots Team-Up",
+            "subtitle": "Robots produced by tens of different vendors can collaborate in the same workspace."
+        }
+    ],
+    "team": [
+        {
+            "link": "images/member1.png",
+            "title": "Max Antonenko",
+            "subtitle": "CEO",
+            "text": "Ph.D., expert in algorithms and mathematical modelling. Co-founded two tech startups."
+        },
+        {
+            "link": "images/member1.png",
+            "title": "Vladimir Sokolenko",
+            "subtitle": "CTO",
+            "text": "Hardware and robotics guru, 20+ years team lead experience. Co-founded two tech startups."
+        },
+        {
+            "link": "images/member1.png",
+            "title": "Alexander Sambuk",
+            "subtitle": "CBDO",
+            "text": "Entrepreneur and top-notch operational lead with a background in corporate business and startups."
+        },
+        {
+            "link": "images/member1.png",
+            "title": "Ilya Shimchik",
+            "subtitle": "Advisor, AI and Computer Vision",
+            "text": "Computer Vision and AI guru, MS Software Engineering (CMU). Head of Acronis SIT Autonomous Team, Roborace."
+        }
+    ]
+}

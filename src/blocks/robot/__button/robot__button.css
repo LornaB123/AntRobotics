@@ -1,0 +1,13 @@
+.robot__button {
+    position: absolute;
+    top: 104px;
+    left: 12px;
+}
+
+@media screen and (min-width: 600px) {
+    .robot__button {
+        top: 50%;
+        left: 22px;
+        transform: translateY(-50%);
+    }
+}

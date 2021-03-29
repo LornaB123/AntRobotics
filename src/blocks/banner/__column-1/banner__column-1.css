@@ -1,0 +1,160 @@
+.banner__column-1 {
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+.banner__column-1 :first-child {
+  position: absolute;
+  width: 4px;
+  height: 184px;
+  background: white;
+  top: 310px;
+  right: 70px;
+  animation: glow .5s linear infinite alternate;
+}
+
+.banner__column-1 :first-child::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #FAA805;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%) rotateY(0deg) rotateX(60deg);
+  /* transform: translateX(-50%) rotateX(50deg); */
+  animation: anim-one 2s linear infinite;
+}
+
+@keyframes anim-one {
+  50% {
+    transform: translateX(-50%) rotateY(180deg) rotateX(60deg);
+    /* bottom: 80%; */
+  }
+  100% {
+    transform: translateX(-50%) rotateY(360deg) rotateX(60deg);
+    /* bottom: 10px; */
+  }
+  /* 50% {
+    transform: translateX(-50%) rotateX(140deg) rotateZ(180deg);
+    bottom: 80%;
+  }
+  100% {
+    transform: translateX(-50%) rotateX(40deg) rotateZ(360deg);
+    bottom: 10px;
+  } */
+}
+
+.banner__column-1 :nth-child(2) {
+  position: absolute;
+  width: 181px;
+  height: 45px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='183' height='47' viewBox='0 0 183 47' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 1.99999L151 2C167.569 2 181 15.4315 181 32L181 47' stroke='white' stroke-width='4'/%3E%3C/svg%3E");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  top: 344px;
+  right: 90px;
+}
+
+.banner__column-1 :nth-child(2)::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background-color: #FAA805;
+  left: 30PX;
+  top: -25%;
+  transform: rotate(45deg);
+  /* animation: anim-two 2s linear infinite alternate-reverse; */
+}
+
+@keyframes anim-two {
+  50% {
+    transform: rotateY(140deg) rotateZ(360deg);
+  }
+  75% {
+    transform: rotateY(60deg) rotateZ(720deg);
+    top: -25%;
+    left: 80%;
+  }
+  100% {
+    transform: rotateX(-90deg) rotateZ(810deg);
+    left: 94%;
+    top: 50%;
+  }
+}
+
+.banner__column-1 :nth-child(3) {
+  position: absolute;
+  width: 45px;
+  height: 180px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='47' height='182' viewBox='0 0 47 182' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M45 0L45 150C45 166.569 31.5685 180 15 180L1.7345e-05 180' stroke='white' stroke-width='4'/%3E%3C/svg%3E");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  top: 140px;
+  right: 89px;
+}
+
+.banner__column-1 :nth-child(3)::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background-color: #FAA805;
+  left: 55%;
+  top: 10%;
+  transform: rotateX(-40deg) rotateZ(45deg);
+  /* animation: anim-three 2s linear infinite alternate; */
+}
+
+@keyframes anim-three {
+  100% {
+    transform: rotateX(45deg) rotateZ(360deg);
+    top: 75%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+    .banner__column-1 :first-child {
+      height: 92px;
+      top: 313px;
+      right: 23px;
+    }
+    .banner__column-1 :first-child::before {
+      width: 20px;
+      height: 20px;
+    }
+    .banner__column-1 :nth-child(2) {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='93' height='25' viewBox='0 0 93 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 2L75.5 2C83.7843 2 90.5 8.71573 90.5 17V24.5' stroke='white' stroke-width='4'/%3E%3C/svg%3E");
+      width: 90.5px;
+      height: 22.5px;
+      top: 330px;
+      right: 30.5px;
+    }
+    .banner__column-1 :nth-child(2)::before {
+      width: 13px;
+      height: 13px;
+    }
+    .banner__column-1 :nth-child(3) {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='25' height='92' viewBox='0 0 25 92' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22.5 0L22.5 75C22.5 83.2842 15.7843 90 7.49999 90H0' stroke='white' stroke-width='4'/%3E%3C/svg%3E");
+      width: 22.5px;
+      height: 90px;
+      top: 233px;
+      right: 33.5px;
+    }
+    .banner__column-1 :nth-child(3)::before {
+      width: 16px;
+      height: 16px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+  .banner__column-1 {
+     display: none;
+  }
+}

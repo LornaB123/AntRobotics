@@ -1,0 +1,14 @@
+a.contacts__text-reg {
+    all: unset;
+    cursor: pointer;
+    font-weight: 400;
+    margin: 0;
+}
+
+a.contacts__text-reg:hover {
+    color: rgb(60, 60, 221);
+}
+.contacts__text-reg {
+    font-weight: 400;
+    margin: 0;
+}

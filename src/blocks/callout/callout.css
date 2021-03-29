@@ -1,0 +1,61 @@
+.callout {
+    padding: 50px 12px 60px;
+    background: #F9F9F9;
+    border-radius: 14px;
+    margin: 8px auto;
+}
+
+.callout h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.callout button {
+    all: unset;
+    width: 160px;
+    height: 42px;
+    min-width: 160px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    background: #FAA805;
+    border-radius: 6px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+.callout button:hover {
+    box-shadow: 0 0 2px 2px rgb(255, 186, 37);
+    filter: grayscale(30%);
+}
+
+@media screen and (min-width: 600px) {
+    .callout {
+        padding: 20px 40px;
+        margin: 10px auto;
+    }
+    .callout div {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .callout h2 {
+        margin: 0;
+    }
+    .callout button {
+        margin: 0;
+    }
+
+}
+@media screen and (min-width: 1024px) {
+    .callout div {
+        max-width: 1060px;
+    }
+}

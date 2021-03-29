@@ -1,0 +1,12 @@
+.contacts__text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    margin: 0;
+}
+
+.contacts__text:not(:first-of-type) {
+    margin-top: 12px;
+}

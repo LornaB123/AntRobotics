@@ -1,0 +1,25 @@
+@import url("./__copyright/contacts__copyright.css");   
+@import url("./__title/contacts__title.css");
+@import url("./__container/contacts__container.css");
+@import url("./__linkedin/contacts__linkedin.css");
+@import url("./__map-iframe/contacts__map-iframe.css");
+@import url("./__text/contacts__text.css");
+@import url("./__text-reg/contacts__text-reg.css");
+
+.contacts{
+    background: #F9F9F9;
+    border-radius: 14px;
+    padding: 110px 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .contacts {
+        padding: 110px 40px 180px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contacts {
+        padding: 50px 12px 130px;
+    }
+}

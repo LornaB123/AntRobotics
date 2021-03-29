@@ -1,0 +1,29 @@
+@import url('./__container/robot__container.css');
+@import url('./__container-image/robot__container-image.css');
+@import url('./__image/robot__image.css');
+@import url('./__wrapper-info/robot__wrapper-info.css');
+@import url('./__button/robot__button.css');
+@import url('./__button/_next/robot__button_next.css');
+@import url('./__container-description/robot__container-description.css');
+
+.robot {
+    background-color: #f9f9f9;
+    margin: 8px 0;
+    border-radius: 14px;
+    box-sizing: border-box;
+    padding: 10px 0px 80px;
+}
+
+@media screen and (min-width: 600px) {
+    .robot {
+        margin: 10px 0;
+        padding: 110px 0;
+        min-height: 986px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .robot {
+        min-height: auto;
+    }
+}

@@ -1,0 +1,14 @@
+.banner__button-container {
+    margin: 0 auto 150px;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .banner__button-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        align-items: center;
+        margin-bottom: 74px;
+    }
+}

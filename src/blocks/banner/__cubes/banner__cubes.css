@@ -1,0 +1,91 @@
+.banner__cubes {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+.banner__cubes div {
+    position: absolute;
+    top: -4px;
+    left: -16px;
+    width: 10.87px;
+    height: 10.87px;
+    background-color: white;
+}
+
+.banner__cubes div::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 100%;
+    left: 8.83px;
+    width: 6.79px;
+    height: 6.79px;
+    background: #fff;
+    margin-bottom: 9.17px;
+}
+
+.banner__cubes div::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 10.53px;
+    left: 100%;
+    width: 6.79px;
+    height: 6.79px;
+    background: #FBBC05;
+    margin-left: 5px;
+    transform-origin: center;
+    animation: anim 1s linear infinite;
+}
+
+@keyframes anim {
+    /* 20% {
+        transform: rotate(720deg);
+        left: 100%;
+    }
+    40% {
+        transform: translateY(5px) rotate(24500deg) scale(2);
+        left: 2250%;
+    }
+    50% {
+        transform: translateY(35px) rotate(5000deg) scale(1);
+        left: 2250%;
+    }
+    60% {
+        transform: translateY(5px)rotate(7500deg) scale(2);
+        left: 2250%;
+    }
+    100% {
+        transform: rotate(20000deg) scale(1);
+        border-radius: 0;
+    } */
+    50% {
+        transform: rotate(180deg) scale(2);
+        left: 220%;
+    }
+    100% {
+        transform: rotate(360deg) scale(1);
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .banner__cubes div {
+        width: 8.48px;
+        height: 8.48px;
+        top: 1px;
+        left: -11px;
+    }
+    .banner__cubes div::after, .banner__cubes div::before {
+        width: 5.3px;
+        height: 5.3px;
+    }
+    .banner__cubes div::after {
+        bottom: 100%;
+        margin-left: 3.97px;
+    }
+    .banner__cubes div::before {
+        left: 65%;
+    }
+}

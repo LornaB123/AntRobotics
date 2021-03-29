@@ -1,0 +1,13 @@
+.robot__button_next {
+    transform: rotate(180deg);
+    left: auto;
+    right: 12px;
+}
+
+@media screen and (min-width: 600px) {
+    .robot__button_next {
+        top: 50%;
+        right: 22px;
+        transform: rotate(180deg) translateY(50%);
+    }
+}

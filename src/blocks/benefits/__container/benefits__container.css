@@ -1,0 +1,20 @@
+.benefits__container {
+    min-width: 304px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+@media screen and(min-width: 600px){
+    .benefits__container{
+        display: grid;
+        max-width: 768px;
+    }
+}
+@media screen and(min-width: 1024px){
+    .benefits__container{
+        margin: 0 auto;
+        max-width: 1060px;
+        padding-bottom: 110px;
+    }
+}

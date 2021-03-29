@@ -1,0 +1,46 @@
+@import url('./__logo/nav__logo.css');
+@import url('./__button/nav__button.css');
+@import url('./__link/nav__link.css');
+@import url('./__button/_cross/nav__button_cross.css');
+@import url('./__list/nav__list.css');
+@import url('./__list/_open/nav__list_open.css');
+@import url('./__active/nav__active.css');
+
+.nav {
+    --color: white;
+    align-items: center;
+    background-color: #393939;
+    border-radius: 6px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04);
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    left: 50%;
+    margin: 22px 0 0;
+    min-height: 48px;
+    padding: 0 12px;
+    position: fixed;
+    top: 0;
+    transform: translateX(-50%);
+    min-width: 280px;
+    width: 87.5%;
+    z-index: 1;
+}
+
+@media screen and (min-width: 725px) {
+    .nav {
+        width: 92.1875%;
+        padding: 0 20px;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .nav {
+        max-width: 1060px;
+        width: 82.8125%;
+    }
+}

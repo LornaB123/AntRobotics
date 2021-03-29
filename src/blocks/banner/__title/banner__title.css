@@ -1,0 +1,16 @@
+.banner__title {
+    margin: 250px auto 16px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 43px;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .banner__title {
+        font-size: 28px;
+        margin-top: 139px;
+        margin-bottom: 17px;
+    }
+}

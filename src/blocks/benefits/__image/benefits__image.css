@@ -1,0 +1,16 @@
+.benefits__image {
+    display: grid;
+    place-items: center;
+    height: 52px;
+    width: 52px;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 4%);
+    border-radius: 6px;
+    background-color: white;
+    margin: 0 auto 30px;
+}
+
+@media screen and (min-width: 650px){
+    .benefits__image{
+        margin: 0 0 30px;
+    }
+}

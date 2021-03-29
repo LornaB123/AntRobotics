@@ -1,0 +1,23 @@
+.benefits__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    margin: 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 650px) {
+    .benefits__title {
+        font-size: 34px;
+        line-height: 43px;
+        text-align: left;
+        max-width: 548px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .benefits__title {
+        max-width: 1060px;
+    }
+}

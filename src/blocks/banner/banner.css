@@ -1,0 +1,27 @@
+@import url('./__title/banner__title.css');
+@import url('./__subtitle/banner__subtitile.css');
+@import url('./__video-button/banner__video-button.css');
+@import url('./__learn-button/banner__learn-button.css');
+@import url('./__button-container/banner__button-container.css');
+@import url('./__cubes/banner__cubes.css');
+@import url('./__column-1/banner__column-1.css');
+@import url('./__column-3/banner__column-3.css');
+
+.banner {
+    position: relative;
+    height: 634px;
+    margin: 0 auto 10px;
+    background-color: #242424;
+    border-radius: 14px;
+    display: grid;
+    grid-template-columns: 1fr 420px 1fr;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .banner {
+      grid-template-columns: 1fr;
+      height: 493px;
+      margin-bottom: 8px;
+    }
+}

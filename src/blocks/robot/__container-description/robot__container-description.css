@@ -1,0 +1,90 @@
+.robot__container-description {
+    text-align: center;
+    margin: auto;
+}
+
+.robot__container-description h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.robot__container-description p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.robot__container-description p:first-of-type {
+    max-width: 296px;
+    text-align: center;
+    margin: 22px auto 58px;
+}
+
+.robot__container-description p:not(:first-of-type) {
+    letter-spacing: -0.04em;
+    color: #525252;
+    position: relative;
+}
+
+.robot__container-description p:not(:first-of-type)::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='17' height='12' viewBox='0 0 17 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 5.73684L5.83871 11L16 1' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 8px;
+}
+
+.robot__container-description p:not(:first-of-type):not(:last-of-type) {
+    margin-bottom: 38px;
+}
+
+@media screen and (min-width: 600px) {
+    .robot__container-description {
+        max-width: 420px;
+    }
+    .robot__container-description h2 {
+        font-size: 34px;
+        line-height: 43px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .robot__container-description {
+        width: 100%;
+        margin: 0;
+    }
+    .robot__container-description h2 {
+        text-align: left;
+    }
+    .robot__container-description p:first-of-type {
+        text-align: left;
+        margin: 22px 0 40px;
+    }
+    .robot__container-description p:not(:first-of-type) {
+        text-align: left;
+    }
+    .robot__container-description p:not(:first-of-type)::before {
+        position: relative;
+        display: inline-block;
+        margin: 0;
+        margin-right: 14px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        transform: translate(0);
+    }
+    .robot__container-description p:not(:first-of-type):not(:last-of-type) {
+        margin-bottom: 10px;
+    }
+}

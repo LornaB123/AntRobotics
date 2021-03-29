@@ -1,0 +1,19 @@
+@import url('./__title/benefits__title.css');
+@import url('./__image/benefits__image.css');
+@import url('./___columns/benefits__columns.css');
+@import url('./__column-title/benefits__column-title.css');
+@import url('./__column-subtitle/benefits__column-subtitle.css');
+
+.benefits {
+    margin: 0 auto 8px;
+    background-color: #F9F9F9;
+    border-radius: 14px;
+    padding: 50px 12px 80px;
+}
+
+@media screen and (min-width: 650px){
+    .benefits {
+        margin: 0 auto 10px;
+        padding: 110px 12px;
+    }
+}

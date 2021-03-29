@@ -1,0 +1,6 @@
+.nav__button_cross {
+    mask-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='14' height='14' viewBox='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='17.7672' height='1.77672' rx='0.888361' transform='matrix(0.697757 0.716335 -0.697757 0.716335 1.23975 0)' fill='white'/%3E%3Crect width='17.7672' height='1.77672' rx='0.888361' transform='matrix(0.697757 -0.716335 0.697757 0.716335 0.363281 12.7273)' fill='white'/%3E%3C/svg%3E");
+    -webkit-mask-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='14' height='14' viewBox='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='17.7672' height='1.77672' rx='0.888361' transform='matrix(0.697757 0.716335 -0.697757 0.716335 1.23975 0)' fill='white'/%3E%3Crect width='17.7672' height='1.77672' rx='0.888361' transform='matrix(0.697757 -0.716335 0.697757 0.716335 0.363281 12.7273)' fill='white'/%3E%3C/svg%3E");
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+}
